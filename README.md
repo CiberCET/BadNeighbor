@@ -67,4 +67,4 @@ Ejecutamos el exploit:
 
     sudo python3 poc.py
 
-
+![](https://media.giphy.com/media/N22E74IolJ5VB5P3qP/giphy.gif)
