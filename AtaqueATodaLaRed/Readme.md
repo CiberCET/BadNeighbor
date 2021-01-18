@@ -1,11 +1,16 @@
-Script que escanea la red y lanza el ataque contra todos los dispositivos conectados.
-Para realizar esta versión del ataque se debe de añadir a poc.py:
-	import sys
+Script que escanea la red y lanza el ataque contra todos los dispositivos conectados. 
+Para realizar esta versión del ataque se debe de añadir a poc.py: 
 
-y modificar v6_dst:
-	v6_dst = sys.argv[1]
+> import sys
 
+y modificar v6_dst: 
 
-Para su ejecución:
-	chmod +x BadNeighborImproved_vNetwork.sh
-	./BadNeighborImproved_vNetwork
+   
+
+>  v6_dst = sys.argv[1]
+
+Para su ejecución: 
+
+    chmod +x BadNeighborImproved_vNetwork.sh
+    ./BadNeighborImproved_vNetwork
+
