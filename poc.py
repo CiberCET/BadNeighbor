@@ -42,7 +42,7 @@ pktAFragmentar = IPv6(dst=ipv6_dst, src=ipv6_src, hlim=255) / IPv6ExtHdrFragment
 #Fragmento el paquete IPv6 en trozos de 200 bytes de MTU
 pktFragmentado = fragment6(pktAFragmentar, 200)
 
-# For que recorre los fragmentos y los envía en orden
+# For que recorre los fragmentos y los envía ordenadamente
 for fragmento in pktFragmentado:
     send(fragmento)
 
